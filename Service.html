@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap link (css)-->
+    <link rel="stylesheet" href="bootstrap-5.1.3/bootstrap-5.1.3/dist/css/bootstrap.min.css">
+
+    <!-- fontawsome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font cdnjs -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200;300&family=Dongle&family=Dynalight&family=Grape+Nuts&family=Inter&family=Josefin+Sans&family=Lato:wght@300&family=Mansalva&family=Marcellus+SC&family=Mitr:wght@300&family=Montserrat:wght@300&family=Mulish:wght@200&family=Nunito+Sans&family=Open+Sans:wght@300&family=Oswald:wght@200;400&family=Oxygen&family=Poppins&family=Rajdhani:wght@500&family=Raleway&family=Roboto+Condensed&family=Roboto:wght@300;400&family=Source+Sans+Pro:wght@200;300;400&display=swap"
+        rel="stylesheet">
+
+    <!-- css link -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- animated style cdnj -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+    <title>Real estate</title>
+</head>
+
+<body>
+    <nav id="deskstop-nav">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 mt-5 text-end">
+                    <a href="#"><img src="assets/images/banner/logo.svg" alt=""></a>
+
+                </div>
+                <div class="col-9">
+                    <div class="row" style="background-color: #1d1f25;">
+                        <div class="col-6">
+                            <div class="text">
+                                <p class="text-white mt-3 ms-5" style="font-size: 0.8rem;">OPENING HOURS: &nbsp; &nbsp;
+                                    MON - SAT 9:00 AM TO 6:00
+                                    PM </p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="text-end">
+                                <p class="mt-3 me-5"><a href="#" style="text-decoration: none; color: #de9e53;">SCHEDULE
+                                        A VISIT</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="background-color: #24262d;">
+                        <div class="col-12">
+                            <div class="d-flex  justify-content-end">
+                                <p class="mt-3 me-5 text-white">CALL US : &nbsp; &nbsp;<a href="#"
+                                        style="text-decoration: none; color: grey;">NEEDHELP@DINSO.COM</a></p>
+                                <p class="mt-3 me-5 text-white">WRITE US : &nbsp; &nbsp; <a href="#"
+                                        style="text-decoration: none; color: grey;">666 888 0000</a></p>
+                                <p class="mt-3 me-5 text-white">VISIT US : &nbsp; &nbsp; <a href="#"
+                                        style="text-decoration: none; color: grey;">60 BROKLYN STREET USA</a></p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div id="social" class="p-1">
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+                            </div>
+
+                        </div>
+                        <div class="col-9" style="background-color: #de9e53;">
+                            <div id="naav" class="p-3">
+                                <a href="#">HOME.</a>
+                                <a href="#">PAGES.</a>
+                                <a href="#">APARTMENTS.</a>
+                                <a href="#">OUR NEWS.</a>
+                                <a href="#">CONTACT.</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--mobile view navbar  -->
+
+    <nav class="navbar navbar-expand-lg bg-light navbar-light" id="mobile-nav">
+        <div class="container">
+            <a href="#" class="navbar-brand"><img src="assets/images/banner/logo.svg" alt=""></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#servicemodal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="servicemodal">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#" class="nav-link">HOME.</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">PAGES.</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">APARTMENTS.</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">OUR NEWS.</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">CONTACT.</a></li>
+
+                </ul>
+
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- service section -->
+
+    <div class="container-fluid p-0">
+        <div class="d-flex justify-content-center align-items-center" id="service-banner">
+            <div style="color: white;">
+                <h1 class="fw-bold" style="font-size: 4rem;">SERVICE</h1>
+            </div>
+        </div>
+        <div class="container pt-5 pb-5">
+            <div class="text-center">
+                <span style="color: #de9e53;">
+                    <b>SERVICE DETAILS</b></span>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 mt-3">
+                    <div class="card p-3">
+                        <div class="text-center mb-5">
+                            <img src="./assets/images/svg icons/draws.png" class="img-fluid w-25" alt="">
+                        </div>
+                        <div class="card-title text-center">
+                            <h3><b>title</b></h3>
+                        </div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex molestias soluta temporibus
+                                natus est, quaerat pariatur exercitationem. Doloribus, soluta earum consectetur culpa
+                                debitis dignissimos, aliquam itaque maiores reprehenderit quaerat ipsa.
+                            </p>
+                        </div>
+                        <div>
+                            <div class="text-center">
+                                <a href="" class="mt-3" data-bs-target="#mod" data-bs-toggle="modal"><button id="btn-4" >Purchase</button></a>
+
+                                <a href="" class="" data-bs-target="#mod" data-bs-toggle="modal"><button id="btn-4" >Rent</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 mt-3">
+                     <div class="card p-3">
+                        <div class="text-center mb-5">
+                            <img src="./assets/images/svg icons/handshake.png" class="img-fluid w-25" alt="">
+                        </div>
+                          <div class="card-title text-center">
+                            <h3><b>title</b></h3>
+                        </div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex molestias soluta temporibus
+                                natus est, quaerat pariatur exercitationem. Doloribus, soluta earum consectetur culpa
+                                debitis dignissimos, aliquam itaque maiores reprehenderit quaerat ipsa.
+                            </p>
+                        </div>
+                        <div>
+                            <div class="text-center">
+                                <a href="" class="mt-3" data-bs-target="#mod" data-bs-toggle="modal"><button id="btn-4" >Purchase</button></a>
+
+                                <a href="" class="" data-bs-target="#mod" data-bs-toggle="modal"><button id="btn-4" >Rent</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 mt-3">
+                     <div class="card p-3">
+                        <div class="text-center mb-5">
+                            <img src="./assets/images/svg icons/house.png" class="img-fluid w-25" alt="">
+                        </div>
+                          <div class="card-title text-center">
+                            <h3><b>title</b></h3>
+                        </div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex molestias soluta temporibus
+                                natus est, quaerat pariatur exercitationem. Doloribus, soluta earum consectetur culpa
+                                debitis dignissimos, aliquam itaque maiores reprehenderit quaerat ipsa.
+                            </p>
+                        </div>
+                        <div>
+                            <div class="text-center">
+                                <a href="" class="mt-3" data-bs-target="#mod" data-bs-toggle="modal"><button id="btn-4" >Purchase</button></a>
+
+                                <a href="" class="" data-bs-target="#mod" data-bs-toggle="modal"><button id="btn-4" >Rent</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 mt-3">
+                    <div class="card p-3">
+                        <div class="text-center mb-5">
+                            <img src="./assets/images/svg icons/draws.png" class="img-fluid w-25" alt="">
+                        </div>
+                          <div class="card-title text-center">
+                            <h3><b>title</b></h3>
+                        </div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex molestias soluta temporibus
+                                natus est, quaerat pariatur exercitationem. Doloribus, soluta earum consectetur culpa
+                                debitis dignissimos, aliquam itaque maiores reprehenderit quaerat ipsa.
+                            </p>
+                        </div>
+                        <div>
+                            <div class="text-center">
+                                <a href="" class="mt-3" data-bs-target="#mod" data-bs-toggle="modal"><button id="btn-4" >Purchase</button></a>
+
+                                <a href="" class="" data-bs-target="#mod" data-bs-toggle="modal"><button id="btn-4" >Rent</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 mt-3">
+                     <div class="card p-3">
+                        <div class="text-center mb-5">
+                            <img src="./assets/images/svg icons/handshake.png" class="img-fluid w-25" alt="">
+                        </div>
+                          <div class="card-title text-center">
+                            <h3><b>title</b></h3>
+                        </div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex molestias soluta temporibus
+                                natus est, quaerat pariatur exercitationem. Doloribus, soluta earum consectetur culpa
+                                debitis dignissimos, aliquam itaque maiores reprehenderit quaerat ipsa.
+                            </p>
+                        </div>
+                        <div>
+                            <div class="text-center">
+                                <a href="" class="mt-3" data-bs-target="#mod" data-bs-toggle="modal"><button id="btn-4" >Purchase</button></a>
+
+                                <a href="" class="" data-bs-target="#mod" data-bs-toggle="modal"><button id="btn-4" >Rent</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 mt-3">
+                     <div class="card p-3">
+                        <div class="text-center mb-5">
+                            <img src="./assets/images/svg icons/house.png" class="img-fluid w-25" alt="">
+                        </div>
+                          <div class="card-title text-center">
+                            <h3><b>title</b></h3>
+                        </div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex molestias soluta temporibus
+                                natus est, quaerat pariatur exercitationem. Doloribus, soluta earum consectetur culpa
+                                debitis dignissimos, aliquam itaque maiores reprehenderit quaerat ipsa.
+                            </p>
+                        </div>
+                        <div>
+                            <div class="text-center">
+                                <a href="" class="mt-3" data-bs-target="#mod" data-bs-toggle="modal"><button id="btn-4" >Purchase</button></a>
+
+                                <a href=""><button id="btn-4" data-bs-target="#mod" data-bs-toggle="modal">Rent</button></a>
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal section -->
+   <!-- Button trigger modal -->
+  
+  <!-- Modal -->
+
+  <div class="modal fade" id="mod" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>modal</h2>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque debitis et laboriosam! Expedita porro inventore quidem sapiente nihil officia at, illum maiores fuga consequuntur velit aspernatur error! Qui, consequuntur officiis.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#"><button id="btn-4">Contact</button></a>
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+    </div>
+
+  </div>
+  
+
+
+
+
+    <!-- footer section -->
+
+    <footer style="background-color: #24262d;" id="footer">
+        <div class="container mt-5 pb-5">
+            <div class="row pt-5">
+                <div class="col-12 col-lg-8 col-md-8 col-sm-12">
+                    <div class="row">
+                        <div class="col-6 text-white">
+                            <h2><b>ADDRESS</b></h2>
+                            <p class="mt-4">WRITE US</p>
+                            <p><a href="#">needhelp@dinso.com</a></p>
+                            <p class="mt-4">CALL US</p>
+                            <p><a href="#">666 888 0000</a></p>
+                            <p class="mt-4">Visit us:</p>
+                            <p><a href="#">60 broklyn street USA</a></p>
+                        </div>
+                        <div class="col-6 text-white">
+                            <h2><b>CONTACT AGENT</b></h2>
+                            <div class="row mt-4 gx-0">
+                                <div class="col-12 col-lg-6 col-md-12 col-sm-12">
+                                    <img src="assets/images/card/agent-thumb.jpg" alt="">
+                                </div>
+                                <div class="col-12 col-lg-6 col-md-12 col-sm-12">
+                                    <p><b>Jason William</b></p>
+                                    <p>Certified Agent</p>
+                                </div>
+                            </div>
+                            <p class="mt-3"><a href="#">+ 000 777 8888</a></p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-4 col-sm-12 text-white">
+                    <h2><b>ENQUIRE</b></h2>
+                    <form action="" id="form">
+                        <input type="text" placeholder="YOUR NAME">
+                        <input type="text" placeholder="EMAIL ADDRESS">
+                        <input type="text" placeholder="PHONE NUMBER">
+                        <textarea placeholder="WRITE MESSAGE"></textarea>
+                        <input type="submit" value="SUBMIT" id="submit">
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="bootstrap-5.1.3/bootstrap-5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

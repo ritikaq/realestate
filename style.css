@@ -32,7 +32,16 @@
       
     }
 }
-
+#service-banner{
+ 
+        background: linear-gradient(rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.66)),url(assets/images/banner/2-10.jpg);
+        width: 100%;
+        min-height: 40vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+}
 #btn-1{
     border: none;
     background-color: #de9e53;
@@ -85,7 +94,12 @@
     padding: 10px 30px;
     border: none;
 }
-
+#btn-4{
+    background-color: #de9e53;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+}
 #carousel-indicators{
     top: -125px !important;
     right: 0 !important;
