@@ -46,8 +46,20 @@
         background-repeat: no-repeat;
 
     }
-}
 
+#form1 input::placeholder {
+    color: white;
+}
+#service-banner{
+ 
+        background: linear-gradient(rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.66)),url(assets/images/banner/2-10.jpg);
+        width: 100%;
+        min-height: 40vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+}
 #form {
     color: white;
 }
@@ -132,7 +144,12 @@
     padding: 10px 30px;
     border: none;
 }
-
+#btn-4{
+    background-color: #de9e53;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+}
 #carousel-indicators {
     top: -125px !important;
     right: 0 !important;
@@ -175,6 +192,12 @@ textarea {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
+#deskstop-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
 
 @media screen and (max-width: 768px) {
     #deskstop-nav {
@@ -189,3 +212,5 @@ textarea {
         width: 100%;
     }
 }
+
+        
