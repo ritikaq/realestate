@@ -1,20 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rajdhani', sans-serif;
 }
-#social a i{
+
+#social a i {
     color: white;
     padding: 1rem;
 }
-#naav a{
+
+#naav a {
     text-decoration: none;
     color: white;
     padding: 2rem;
 }
-#banner{
-    background: linear-gradient(rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.66)),url(assets/images/banner/2-10.jpg);
+
+#banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)), url(assets/images/banner/2-10.jpg);
     width: 100%;
     min-height: 80vh;
     background-size: cover;
@@ -22,50 +25,106 @@
     background-repeat: no-repeat;
     animation: ani 5s linear infinite;
 }
-@keyframes ani{
-    from{
-        background: linear-gradient(rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.66)),url(assets/images/banner/2-10.jpg);
-      
+
+@keyframes ani {
+    from {
+        background: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)), url(assets/images/banner/2-10.jpg);
+        width: 100%;
+        min-height: 80vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
     }
-    to{
-        background: linear-gradient(rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.66)),url(assets/images/banner/3-3.jpg);
-      
+
+    to {
+        background: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)), url(assets/images/banner/3-3.jpg);
+        width: 100%;
+        min-height: 80vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
     }
 }
+#form1 input::placeholder {
+    color: white;
+}
+#service-banner{
+ 
+        background: linear-gradient(rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.66)),url(assets/images/banner/2-10.jpg);
+        width: 100%;
+        min-height: 40vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* display: flex; */
+        
+}
+#form {
+    color: white;
+}
 
-#btn-1{
+#form1 input {
+    background: none;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.593);
+    width: 100%;
+    padding: 0.6rem;
+    margin-top: 1.3rem;
+    outline: none;
+}
+#form1 label{
+    color: white;
+
+}
+#form1 select{
+    border: 2px solid white;
+    background: none;
+    color: #de9e53;
+    border: 1px solid white;
+    width: 100%;
+    padding: 0.6rem;
+    margin-top: 1rem;
+}
+#form1 input::placeholder{
+    color: white;
+}
+#btn-1 {
     border: none;
     background-color: #de9e53;
     padding: 20px 40px;
     color: white;
 }
 
-#mobile-nav{
+#mobile-nav {
     display: none;
 }
 
-.box{
+.box {
     width: 20%;
 }
 
-#card{
+#card {
     background-color: #f7f5f1;
 }
-#card:hover{
+
+#card:hover {
     background-color: #de9e53;
     color: white;
     transition: 0.4s;
 }
-#room{
-    background: linear-gradient(rgba(247, 245, 241, 0.853),rgba(247, 245, 241, 0.859)),url(assets/images/banner/pattern-1.jpg);
+
+#room {
+    background: linear-gradient(rgba(247, 245, 241, 0.853), rgba(247, 245, 241, 0.859)), url(assets/images/banner/pattern-1.jpg);
     width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-#why-choose{
-    background: linear-gradient(rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.66)),url(assets/images/banner/1-3.jpg);
+#why-choose {
+    background: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)), url(assets/images/banner/1-3.jpg);
     width: 100%;
     min-height: 50vh;
     background-repeat: no-repeat;
@@ -73,36 +132,44 @@
     background-size: cover;
     background-attachment: fixed;
 }
-.box{
+
+.box {
     background-color: white;
     width: 100%;
 
 }
 
-#btn-3{
+#btn-3 {
     background-color: #de9e53;
     color: white;
     padding: 10px 30px;
     border: none;
 }
-
-#carousel-indicators{
+#btn-4{
+    background-color: #de9e53;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+}
+#carousel-indicators {
     top: -125px !important;
     right: 0 !important;
     left: auto !important;
 }
-#carousel-indicators button{
+
+#carousel-indicators button {
     width: 25px;
     height: 24px;
     border-radius: 50%;
 }
 
-#footer a{
+#footer a {
     text-decoration: none;
     color: grey;
 }
 
-#form input, textarea{
+#form input,
+textarea {
     width: 100%;
     border: 1px solid grey;
     color: white;
@@ -111,23 +178,38 @@
     margin-top: 1rem;
     border-radius: 5px;
 }
-#form #submit{
+
+#form #submit {
     background-color: #de9e53;
     color: white;
     padding: 10px 30px;
     border: none;
     width: 25%;
 }
+#deskstop-nav{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
 
+#deskstop-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
 
-@media screen and (max-width: 768px){
-    #deskstop-nav{
+@media screen and (max-width: 768px) {
+    #deskstop-nav {
         display: none;
     }
-    #mobile-nav{
+
+    #mobile-nav {
         display: block;
     }
-    .box{
+
+    .box {
         width: 100%;
     }
 }
