@@ -219,7 +219,7 @@ textarea {
 /* about us page */
 .about_image{
     background-image: url("assets/images/about_us/3-3.jpg");
-    height: 60vh;
+    min-height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
